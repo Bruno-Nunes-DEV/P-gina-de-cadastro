@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'public Sans', sans-serif;
+}
+
+body{
+    background-color: #181324;
+}
+.titulo{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pai{
+
+    margin: 0 auto;
+}
+
+.contain{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inputs{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+input{border: 1px solid #282433;
+    background-color: #282433;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 100px;
+    border-radius: 10px;
+}
+input:focus{
+    color: white;
+    outline: 0;
+}
+
+.declaracao{
+    color: white;
+}
+.botao{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.botao > input{
+    color: white;
+    background-color: #A47FF3;
+    padding:13px 20px;
+    cursor: pointer;
+}
+
+.declaracao > a{
+    color: #A47FF3;
+}
+.rodape{
+    color: white;
+}
+.botao > input:hover{
+    
+    background-color: #bda4f5 ;
+}
+
+.rodape > a{
+    color: white;
+}
